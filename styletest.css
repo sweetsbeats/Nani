@@ -33,9 +33,14 @@ img.streamer {
   width: 200px;
   height: 200px;
 
+  margin: 50px;
+  
   display: block;
-  margin: 20px;
-  border: 10px;
+  border: 5px solid blue;
+  border-radius: 10px;
+  border-color: blue;
+  float: right;
+  text-align: center;
 }
 img.nonon {
   width:100px;
@@ -43,4 +48,7 @@ img.nonon {
 
   display: block;
   margin: auto;
+}
+#test {
+  clear: both;
 }
