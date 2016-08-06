@@ -1,0 +1,46 @@
+body {
+      background-color: powderblue;
+}
+h1 {
+      color: blue;
+      font-family: Arial;
+      text-align: center;
+}
+p {
+      border: 1px solid blue;
+      padding: 10px;
+      margin: 50px;
+
+      color: blue;
+      font-family: Arial;
+      text-align: center;
+}
+
+.centered {
+  display: block;
+  margin: auto;
+  width: 100px;
+  height: 100px;
+}
+
+
+img.center {
+display: block;
+margin: auto;
+}
+
+img.streamer {
+  width: 200px;
+  height: 200px;
+
+  display: block;
+  margin: 20px;
+  border: 10px;
+}
+img.nonon {
+  width:100px;
+  height:100px;
+
+  display: block;
+  margin: auto;
+}
