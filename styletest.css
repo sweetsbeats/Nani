@@ -7,13 +7,10 @@ h1 {
       text-align: center;
 }
 p {
-      border: 1px solid blue;
-      padding: 10px;
-      margin: 50px;
-
       color: blue;
       font-family: Arial;
       text-align: center;
+      margin-left: 2px;
 }
 
 .centered {
@@ -29,12 +26,31 @@ display: block;
 margin: auto;
 }
 
+div.streamerbox {
+  border: 3px solid black;
+position: static;
+text-align: center;
+padding: 110px 20px;
+float: right;
+margin-right: 60px;
+}
+
+div.currentlyplaying {
+  border: 3px solid black;
+  position: static; top: 200px;
+  text-align: right;
+  float: none;
+  margin-top: 200px;
+  margin-left: 300px;
+  margin-right: 370px;
+}
+
 img.streamer {
   width: 200px;
   height: 200px;
 
-  margin: 50px;
-  
+  margin-right: 20px;
+
   display: block;
   border: 5px solid blue;
   border-radius: 10px;
@@ -51,4 +67,23 @@ img.nonon {
 }
 #test {
   clear: both;
+}
+#streamername {
+padding: 1px;
+
+}
+#foot {
+  border: 1px solid blue;
+  padding: 10px;
+  margin: 50px;
+}
+#songname {
+  font-size: 30px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+#info {
+  font-size:12px;
+  text-align:left;
+  margin-left: 100px;
 }
