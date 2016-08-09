@@ -17,8 +17,7 @@
 
   <p id="songname">hello</p>
     <p id="player"><audio class="stream" src = test.mp3 controls></p>
-  <p id="info">currently listening:</p>
-
+  <p id="info">
 </div>
 
   <p id="test">Test(icles)!</p>
