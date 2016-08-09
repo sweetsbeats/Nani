@@ -27,7 +27,7 @@ margin: auto;
 }
 
 div.streamerbox {
-  border: 3px solid black;
+
 position: static;
 text-align: center;
 padding: 110px 20px;
@@ -35,12 +35,16 @@ float: right;
 margin-right: 60px;
 }
 
+audio.stream {
+  margin-right: 200px;
+}
+
 div.currentlyplaying {
   border: 3px solid black;
   position: static; top: 200px;
   text-align: right;
   float: none;
-  margin-top: 200px;
+  margin-top: 170px;
   margin-left: 300px;
   margin-right: 370px;
 }
@@ -55,8 +59,7 @@ img.streamer {
   border: 5px solid blue;
   border-radius: 10px;
   border-color: blue;
-  float: right;
-  text-align: center;
+
 }
 img.nonon {
   width:100px;
@@ -69,7 +72,8 @@ img.nonon {
   clear: both;
 }
 #streamername {
-padding: 1px;
+  margin-right: 15px;
+  padding: 1px;
 
 }
 #foot {
@@ -86,4 +90,8 @@ padding: 1px;
   font-size:12px;
   text-align:left;
   margin-left: 100px;
+}
+
+#player {
+margin-left: 220px;
 }
