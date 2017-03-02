@@ -1,3 +1,2 @@
 # nani
-its a secret
-step off
+My first attempt at HTML/CSS. Not very good, but it functioned.
